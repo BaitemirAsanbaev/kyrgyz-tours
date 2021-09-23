@@ -10866,3 +10866,44 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.header-title {
+  background-image: url(/images/header-img.png?a5e5b72cc9c1fb8af32c33a06a09108a);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header-title h1, .header-title .h1, .header-title h2, .header-title .h2 {
+  color: #fff;
+  font-size: 53px;
+  max-width: 500px;
+}
+.header-title h1, .header-title .h1 {
+  font-weight: bold;
+}
+.header-title h2, .header-title .h2 {
+  font-weight: 300;
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 2;
+  transition: transform 0.5s, background-color 0.5s;
+}
+.navbar .container-fluid .navbar-brand img, .navbar .container-sm .navbar-brand img, .navbar .container-md .navbar-brand img, .navbar .container-lg .navbar-brand img, .navbar .container-xl .navbar-brand img, .navbar .container-xxl .navbar-brand img {
+  width: 167.5px;
+  height: 50px;
+}
+.navbar .container-fluid ul .ml-nav, .navbar .container-sm ul .ml-nav, .navbar .container-md ul .ml-nav, .navbar .container-lg ul .ml-nav, .navbar .container-xl ul .ml-nav, .navbar .container-xxl ul .ml-nav {
+  margin-left: 20px;
+}
+.navbar .container-fluid ul li a, .navbar .container-sm ul li a, .navbar .container-md ul li a, .navbar .container-lg ul li a, .navbar .container-xl ul li a, .navbar .container-xxl ul li a {
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  transition: color 0.5s;
+}

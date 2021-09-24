@@ -11,10 +11,10 @@
         outline: none;
         box-shadow: none;
         .togg-icon{
-          background-color: #fff;
           width: 100%;
           margin: 10px 0px;
           height: 5px;
+          transition: background-color .5s;
         }
       }
       .navbar-brand{

@@ -10867,7 +10867,8 @@ textarea.form-control-lg {
   }
 }
 .header {
-  background-image: url(/images/header-img.png?a5e5b72cc9c1fb8af32c33a06a09108a);
+  background-image: url(/images/home-img.jpg?4ea18a5bcb855aae3071d0f5dad64cde);
+  background-size: cover;
   width: 100%;
   height: 100vh;
 }
@@ -10885,6 +10886,13 @@ textarea.form-control-lg {
   text-decoration: none;
 }
 
+.home-info {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .navbar {
   width: 100%;
   position: fixed;
@@ -10899,10 +10907,10 @@ textarea.form-control-lg {
   box-shadow: none;
 }
 .navbar .container-fluid .navbar-toggler .togg-icon, .navbar .container-sm .navbar-toggler .togg-icon, .navbar .container-md .navbar-toggler .togg-icon, .navbar .container-lg .navbar-toggler .togg-icon, .navbar .container-xl .navbar-toggler .togg-icon, .navbar .container-xxl .navbar-toggler .togg-icon {
-  background-color: #fff;
   width: 100%;
   margin: 10px 0px;
   height: 5px;
+  transition: background-color 0.5s;
 }
 .navbar .container-fluid .navbar-brand img, .navbar .container-sm .navbar-brand img, .navbar .container-md .navbar-brand img, .navbar .container-lg .navbar-brand img, .navbar .container-xl .navbar-brand img, .navbar .container-xxl .navbar-brand img {
   width: 167.5px;

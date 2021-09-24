@@ -10,6 +10,8 @@ window.onscroll = function () {
       document.getElementById("nav-link-2").style.color = "#fff"
       document.getElementById("nav-link-3").style.color = "#fff"
       document.getElementById("nav-link-4").style.color = "#fff"
+      document.getElementById("togg-id").style.backgroundColor = "#fff"
+      document.getElementById("togg-id-1").style.backgroundColor = "#fff"
       document.getElementById("logo").src = "./assets/logo.svg"
     }
     else {
@@ -18,6 +20,8 @@ window.onscroll = function () {
       document.getElementById("nav-link-2").style.color = "#000"
       document.getElementById("nav-link-3").style.color = "#000"
       document.getElementById("nav-link-4").style.color = "#000"
+      document.getElementById("togg-id").style.backgroundColor = "#000"
+      document.getElementById("togg-id-1").style.backgroundColor = "#000"
       document.getElementById("logo").src = "./assets/logo-black.svg"
     }
   }

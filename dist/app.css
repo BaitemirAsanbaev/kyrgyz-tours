@@ -10866,25 +10866,23 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.header-title {
+.header {
   background-image: url(/images/header-img.png?a5e5b72cc9c1fb8af32c33a06a09108a);
   width: 100%;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
-.header-title h1, .header-title .h1, .header-title h2, .header-title .h2 {
+.header .header-title {
+  max-width: 900px;
+}
+.header .header-title h1, .header .header-title .h1, .header .header-title h2, .header .header-title .h2 {
   color: #fff;
-  font-size: 53px;
-  max-width: 500px;
 }
-.header-title h1, .header-title .h1 {
-  font-weight: bold;
+.header .header-title h2, .header .header-title .h2 {
+  max-width: 700px;
 }
-.header-title h2, .header-title .h2 {
-  font-weight: 300;
+.header .header-title a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .navbar {
@@ -10894,9 +10892,24 @@ textarea.form-control-lg {
   z-index: 2;
   transition: transform 0.5s, background-color 0.5s;
 }
+.navbar .container-fluid .navbar-toggler, .navbar .container-sm .navbar-toggler, .navbar .container-md .navbar-toggler, .navbar .container-lg .navbar-toggler, .navbar .container-xl .navbar-toggler, .navbar .container-xxl .navbar-toggler {
+  width: 70px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.navbar .container-fluid .navbar-toggler .togg-icon, .navbar .container-sm .navbar-toggler .togg-icon, .navbar .container-md .navbar-toggler .togg-icon, .navbar .container-lg .navbar-toggler .togg-icon, .navbar .container-xl .navbar-toggler .togg-icon, .navbar .container-xxl .navbar-toggler .togg-icon {
+  background-color: #fff;
+  width: 100%;
+  margin: 10px 0px;
+  height: 5px;
+}
 .navbar .container-fluid .navbar-brand img, .navbar .container-sm .navbar-brand img, .navbar .container-md .navbar-brand img, .navbar .container-lg .navbar-brand img, .navbar .container-xl .navbar-brand img, .navbar .container-xxl .navbar-brand img {
   width: 167.5px;
   height: 50px;
+}
+.navbar .container-fluid ul, .navbar .container-sm ul, .navbar .container-md ul, .navbar .container-lg ul, .navbar .container-xl ul, .navbar .container-xxl ul {
+  margin-top: 20px;
 }
 .navbar .container-fluid ul .ml-nav, .navbar .container-sm ul .ml-nav, .navbar .container-md ul .ml-nav, .navbar .container-lg ul .ml-nav, .navbar .container-xl ul .ml-nav, .navbar .container-xxl ul .ml-nav {
   margin-left: 20px;

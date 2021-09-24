@@ -5,13 +5,27 @@
   z-index: 2;
   transition: transform .5s, background-color .5s;
     .container-fluid{
+      .navbar-toggler{
+        width: 70px;
+        border: none;
+        outline: none;
+        box-shadow: none;
+        .togg-icon{
+          background-color: #fff;
+          width: 100%;
+          margin: 10px 0px;
+          height: 5px;
+        }
+      }
       .navbar-brand{
+        
         img{
           width: 167.5px;
           height: 50px;
         }
       }
       ul{
+        margin-top: 20px;
         .ml-nav{
           margin-left: 20px;
         }

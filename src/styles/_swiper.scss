@@ -1,0 +1,14 @@
+.cards{
+  h2{
+    margin-left: 200px;
+  }
+  .swiper {
+    width: 100%;
+    height: auto;
+    margin-bottom: 200px;
+    .swiper-wrapper{
+      cursor: grab;
+  
+    }
+  }
+}

@@ -10928,3 +10928,16 @@ textarea.form-control-lg {
   font-size: 18px;
   transition: color 0.5s;
 }
+
+.cards h2, .cards .h2 {
+  margin-left: 200px;
+}
+.cards .swiper {
+  width: 100%;
+  height: auto;
+  margin-bottom: 200px;
+}
+.cards .swiper .swiper-wrapper {
+  cursor: -webkit-grab;
+  cursor: grab;
+}

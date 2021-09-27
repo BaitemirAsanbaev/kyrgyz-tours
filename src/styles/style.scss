@@ -1,28 +1,120 @@
-.header{
+@import "vars";
 
+@keyframes header {
+  from {
+    position: relative;
+    top: 50px;
+    opacity: 0;
+  }
+  to {
+    position: relative;
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+.header {
   background-image: url(../../assets/home-img.jpg);
   background-size: cover;
   width: 100%;
   height: 100vh;
-  .header-title{
+  .header-title {
     max-width: 900px;
 
-    h1, h2{
+    h1,
+    h2 {
       color: #fff;
+      animation: header 1s 0.1s;
     }
-    h2{
+    h2 {
       max-width: 700px;
+      animation-delay: 0.2s;
     }
-    a{
-      color: #fff;
+    a {
+      color: $orangen;
       text-decoration: none;
+      animation: header 1s 0.3s;
+      transition: color 0.5s, background-color 0.5s;
+      border-radius: 1rem;
+    }
+    a:hover {
+      background-color: $orangen;
+      color: #fff;
     }
   }
-
 }
-.home-info{
+.home-info {
   max-width: 1300px;
   margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.cards{
+  .underline{
+    background-color: $orangen;
+    height: 7px;
+    width: 0px;
+    transition: width .5s .5s;
+    
+
+  }
+}
+.cards:hover .underline{
+  width: 300px;
+}
+
+
+.slogan{
+  background-image: url(../../assets/mountains-bg.jpg);
+  background-size: cover;
+  height: 100vh;
+  h1{
+    color: #fff;
+  }
+  .slogan-p{
+    max-width: 900px;
+    color: $orangen;
+    transition: text-shadow .5s;
+  }
+
+}
+.slogan:hover .slogan-p{
+  text-shadow: 3px 3px 0px rgba(255, 255, 255, 0.363);
+}
+
+.team{
+  height: 50vh;
+  color: rgb(66, 66, 66);
+  margin-top: 300px;
+  .underline{
+    background-color: $orangen;
+    height: 7px;
+    width: 0px;
+    transition: width .5s .7s;
+
+  }
+  p{
+    max-width:1000px;
+  }
+  .tribe{
+    .tribe-card{
+      border: 2px solid #000;
+      height: 400px;
+      width: 300px;
+      background-image: url(../../assets/triber.jpg);
+      background-size: contain;
+      overflow: hidden;
+      .card-info{
+        height: 100px;
+        background-color: #fff;
+        position: relative;
+        top: 100px;
+      }
+    }
+  }
+
+}
+.team:hover .underline{
+  width: 300px;
 }

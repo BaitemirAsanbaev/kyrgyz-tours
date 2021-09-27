@@ -5,28 +5,47 @@ import 'bootstrap';
   import Swiper from 'swiper/bundle';
 
   // import styles bundle
-  import 'swiper/css/bundle';
-const swiper = new Swiper('.swiper', {
-  slidesPerView: 5,
-  centeredSlides: true,
-  spaceBetween: 200,
-  // Optional parameters
-  direction: 'horizontal',
-  loop: false,
-
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
-});
+  import 'swiper/css/bundle';const swiper = new Swiper('.swiper', {
+    // centeredSlides: true,
+    // Default parameters
+    slidesPerView: 1,
+    spaceBetween: 10,
+    // Responsive breakpoints
+    breakpoints: {
+      // when window width is >= 320px
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
+      // when window width is >= 480px
+      480: {
+        slidesPerView: 1,
+        spaceBetween: 30
+      },
+      // when window width is >= 480px
+      800: {
+        slidesPerView: 2,
+        spaceBetween: 60
+      },
+      // when window width is >= 640px
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 60
+      },
+      // when window width is >= 640px
+      1440: {
+        slidesPerView: 4,
+        spaceBetween: 60
+      },
+      // when window width is >= 640px
+      1850: {
+        slidesPerView: 5,
+        spaceBetween: 60
+      },
+      // when window width is >= 640px
+      2350: {
+        slidesPerView: 6,
+        spaceBetween: 60
+      },
+    }
+  })

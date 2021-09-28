@@ -1,0 +1,48 @@
+@import "./vars";
+
+.tribe{
+  .tribe-container{
+    max-width: 1300px;
+  }
+  .tribe-card{
+    height: 375px;
+    width: 250px;
+    background-size: contain;
+    background-position: top;
+    overflow: hidden;
+    transition: box-shadow .5s, transform .5s;
+    .card-info{
+      background-color: #fff;
+      position: relative;
+      top: 70px;
+      transition: top .5s,;
+      a{
+        color: $orangen;
+        text-decoration: none;
+      }
+    }
+  }
+  .tribe-card:hover .card-info{
+    top: 0px;
+  }
+  .tribe-card:hover{
+    box-shadow: 10px 10px 0px $orangen;
+    transform: translate(-10px, -10px);
+  }
+  .tribe-link{
+    border: 4px solid $orangen;
+    max-width: 400px;
+    transition: background-color .5s;
+    text-decoration: none;
+    .tr-l{
+      color: $orangen;
+      transition: color .5s;
+    }
+  }
+  .tribe-link:hover{
+    background-color: $orangen;
+  }
+  .tribe-link:hover .tr-l{
+    color: #fff;
+  }
+}

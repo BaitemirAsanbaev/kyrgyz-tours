@@ -12,6 +12,9 @@
     opacity: 1;
   }
 }
+*{
+  box-sizing: border-box;
+}
 
 .header {
   background-image: url(../../assets/home-img.jpg);
@@ -75,44 +78,30 @@
   .slogan-p{
     max-width: 900px;
     color: $orangen;
-    transition: text-shadow .5s;
+    transition: text-shadow .5s .5s;
   }
 
 }
 .slogan:hover .slogan-p{
-  text-shadow: 3px 3px 0px rgba(255, 255, 255, 0.363);
+  text-shadow: 3px 3px 0px rgba(255, 255, 255, 0.815);
 }
 
 .team{
-  height: 50vh;
+  background-color: rgb(233, 233, 233);
   color: rgb(66, 66, 66);
-  margin-top: 300px;
+  padding-top: 300px;
   .underline{
     background-color: $orangen;
     height: 7px;
     width: 0px;
-    transition: width .5s .7s;
+    transition: width .5s .3s;
 
   }
   p{
     max-width:1000px;
+    
   }
-  .tribe{
-    .tribe-card{
-      border: 2px solid #000;
-      height: 400px;
-      width: 300px;
-      background-image: url(../../assets/triber.jpg);
-      background-size: contain;
-      overflow: hidden;
-      .card-info{
-        height: 100px;
-        background-color: #fff;
-        position: relative;
-        top: 100px;
-      }
-    }
-  }
+  
 
 }
 .team:hover .underline{

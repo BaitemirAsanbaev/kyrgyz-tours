@@ -10923,10 +10923,6 @@ textarea.form-control-lg {
   transition: color 0.5s, background-color 0.5s;
   border-radius: 1rem;
 }
-.header .header-title a:hover {
-  background-color: #E58615;
-  color: #fff;
-}
 
 .home-info {
   max-width: 1300px;
@@ -11077,7 +11073,8 @@ textarea.form-control-lg {
 }
 
 .tribe .tribe-container {
-  max-width: 1300px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 .tribe .tribe-card {
   height: 375px;

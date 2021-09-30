@@ -10901,7 +10901,7 @@ textarea.form-control-lg {
   height: 100vh;
 }
 .header .header-title {
-  max-width: 900px;
+  max-width: 1000px;
 }
 .header .header-title h1, .header .header-title .h1,
 .header .header-title h2,
@@ -10963,7 +10963,7 @@ textarea.form-control-lg {
 .team {
   background-color: #e9e9e9;
   color: #424242;
-  padding-top: 300px;
+  padding-top: 150px;
 }
 .team .underline {
   background-color: #E58615;
@@ -10976,6 +10976,21 @@ textarea.form-control-lg {
 }
 
 .team:hover .underline {
+  width: 300px;
+}
+
+.about-d {
+  max-width: 1000px;
+  margin: 100px auto;
+}
+.about-d .underline {
+  background-color: #E58615;
+  height: 7px;
+  width: 0px;
+  transition: width 0.5s 0.5s;
+}
+
+.about-d:hover .underline {
   width: 300px;
 }
 
@@ -11003,13 +11018,7 @@ textarea.form-control-lg {
   width: 167.5px;
   height: 50px;
 }
-.navbar .container-fluid ul, .navbar .container-sm ul, .navbar .container-md ul, .navbar .container-lg ul, .navbar .container-xl ul, .navbar .container-xxl ul {
-  margin-top: 20px;
-}
-.navbar .container-fluid ul .ml-nav, .navbar .container-sm ul .ml-nav, .navbar .container-md ul .ml-nav, .navbar .container-lg ul .ml-nav, .navbar .container-xl ul .ml-nav, .navbar .container-xxl ul .ml-nav {
-  margin-left: 20px;
-}
-.navbar .container-fluid ul li a, .navbar .container-sm ul li a, .navbar .container-md ul li a, .navbar .container-lg ul li a, .navbar .container-xl ul li a, .navbar .container-xxl ul li a {
+.navbar .container-fluid a.nav-link, .navbar .container-sm a.nav-link, .navbar .container-md a.nav-link, .navbar .container-lg a.nav-link, .navbar .container-xl a.nav-link, .navbar .container-xxl a.nav-link {
   color: #fff;
   cursor: pointer;
   font-size: 18px;
@@ -11098,8 +11107,8 @@ textarea.form-control-lg {
   top: 0px;
 }
 .tribe .tribe-card:hover {
-  box-shadow: 10px 10px 0px #E58615;
-  transform: translate(-10px, -10px);
+  box-shadow: 15px 15px 0px #E58615;
+  transform: translate(-15px, -15px);
 }
 .tribe .tribe-link {
   border: 4px solid #E58615;

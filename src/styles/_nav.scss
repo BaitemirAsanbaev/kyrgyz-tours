@@ -25,19 +25,11 @@
           height: 50px;
         }
       }
-      ul{
-        margin-top: 20px;
-        .ml-nav{
-          margin-left: 20px;
-        }
-        li{
-          a{
+          a.nav-link{
             color: #fff;
             cursor: pointer;
             font-size: 18px;
             transition: color .5s;
           }
         }
-      }
-    }
   }

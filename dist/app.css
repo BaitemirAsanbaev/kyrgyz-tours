@@ -11036,6 +11036,7 @@ footer .f-link {
   top: 0px;
   z-index: 2;
   transition: transform 0.5s, background-color 0.5s;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.274);
 }
 .navbar .container-fluid .navbar-toggler, .navbar .container-sm .navbar-toggler, .navbar .container-md .navbar-toggler, .navbar .container-lg .navbar-toggler, .navbar .container-xl .navbar-toggler, .navbar .container-xxl .navbar-toggler {
   width: 70px;

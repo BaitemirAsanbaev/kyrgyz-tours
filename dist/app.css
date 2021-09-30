@@ -10994,6 +10994,14 @@ textarea.form-control-lg {
   width: 300px;
 }
 
+footer {
+  width: 100%;
+}
+
+.f-link {
+  filter: invert(100%);
+}
+
 .navbar {
   width: 100%;
   position: fixed;

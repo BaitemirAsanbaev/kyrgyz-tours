@@ -12,7 +12,7 @@
     opacity: 1;
   }
 }
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -49,84 +49,100 @@
   padding-bottom: 100px;
 }
 
-.cards{
-  .underline{
+.cards {
+  .underline {
     background-color: $orangen;
     height: 7px;
     width: 0px;
-    transition: width .5s .5s;
-    
-
+    transition: width 0.5s 0.5s;
   }
 }
-.cards:hover .underline{
+.cards:hover .underline {
   width: 300px;
 }
 
-
-.slogan{
+.slogan {
   background-image: url(../../assets/mountains-bg.jpg);
   background-size: cover;
   height: 100vh;
-  h1{
+  h1 {
     color: #fff;
   }
-  .slogan-p{
+  .slogan-p {
     max-width: 900px;
     color: $orangen;
-    transition: text-shadow .5s .5s;
+    transition: text-shadow 0.5s 0.5s;
   }
-
 }
-.slogan:hover .slogan-p{
+.slogan:hover .slogan-p {
   text-shadow: 3px 3px 0px rgba(255, 255, 255, 0.815);
 }
 
-.team{
+.team {
   background-color: rgb(233, 233, 233);
   color: rgb(66, 66, 66);
   padding-top: 150px;
-  .underline{
+  .underline {
     background-color: $orangen;
     height: 7px;
     width: 0px;
-    transition: width .5s .3s;
-
+    transition: width 0.5s 0.3s;
   }
-  p{
-    max-width:1000px;
-    
+  p {
+    max-width: 1000px;
   }
-  
-
 }
-.team:hover .underline{
+.team:hover .underline {
   width: 300px;
 }
 
-
-.about-d{
+.about-d {
   max-width: 1000px;
   margin: 100px auto;
+  .underline {
+    background-color: $orangen;
+    height: 7px;
+    width: 0px;
+    transition: width 0.5s 0.5s;
+  }
+}
+.about-d:hover .underline {
+  width: 300px;
+}
+.main{
   .underline{
     background-color: $orangen;
     height: 7px;
     width: 0px;
-    transition: width .5s .5s;
-    
-
+    transition: width 0.5s 0.5s;
   }
-
 }
-.about-d:hover .underline{
+.main:hover .underline{
   width: 300px;
 }
 
-
-
-footer{
-  width: 100%;
+.c-title{
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 80px;
 }
-.f-link{
-  filter: invert(100%);
+
+.form{
+  max-width: 800px;
+  margin: 0 auto;
+  .btn{
+    background-color: $orangen;
+    color: #fff;
+  }
+}
+
+footer {
+  width: 100%;
+  .f-title {
+    color: $orangen;
+  }
+
+  .f-link {
+    filter: invert(100%);
+  }
 }

@@ -10994,11 +10994,39 @@ textarea.form-control-lg {
   width: 300px;
 }
 
+.main .underline {
+  background-color: #E58615;
+  height: 7px;
+  width: 0px;
+  transition: width 0.5s 0.5s;
+}
+
+.main:hover .underline {
+  width: 300px;
+}
+
+.c-title {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.form .btn {
+  background-color: #E58615;
+  color: #fff;
+}
+
 footer {
   width: 100%;
 }
-
-.f-link {
+footer .f-title {
+  color: #E58615;
+}
+footer .f-link {
   filter: invert(100%);
 }
 

@@ -11030,6 +11030,54 @@ footer .f-link {
   filter: invert(100%);
 }
 
+.card-t {
+  overflow: hidden;
+  height: 400px;
+}
+
+.sw-card {
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 400px;
+  transition: filter 0.5s, transform 0.5s;
+  color: #fff;
+  text-decoration: none;
+}
+
+.tour-info {
+  position: relative;
+  width: 300px;
+  top: -400px;
+}
+.tour-info .card-type, .tour-info .card-discription {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.tour-info .card-discription {
+  font-size: 16px;
+}
+.tour-info .fs-sm {
+  font-size: 14px;
+}
+.tour-info .card-title {
+  transition: transform 0.5s;
+}
+
+a:hover .sw-card {
+  filter: brightness(40%);
+  transform: scale(1.1);
+}
+
+a:hover .card-type, a:hover .card-discription {
+  opacity: 1;
+}
+
+a:hover .card-title {
+  transform: scale(0.7);
+  color: #E58615;
+}
+
 .navbar {
   width: 100%;
   position: fixed;

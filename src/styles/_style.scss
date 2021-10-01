@@ -146,3 +146,50 @@ footer {
     filter: invert(100%);
   }
 }
+
+
+.card-t{
+  overflow: hidden;
+  height: 400px;
+}
+.sw-card {
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 400px;
+  transition: filter .5s, transform .5s;
+  color: #fff;
+  text-decoration: none;
+  
+}
+.tour-info{
+  position: relative;
+  width: 300px;
+  top: -400px;
+
+  .card-type, .card-discription{
+    opacity: 0;
+    transition: opacity .5s;
+  }
+  .card-discription{
+    font-size: 16px;
+  }
+  .fs-sm{
+    font-size: 14px;
+  }
+  .card-title{
+    transition: transform .5s;
+  }
+
+}
+a:hover .sw-card{
+  filter: brightness(40%);
+  transform: scale(1.1);
+}
+a:hover .card-type, a:hover .card-discription{
+  opacity: 1;
+}
+a:hover .card-title{
+  transform: scale(.7);
+  color: $orangen;
+}

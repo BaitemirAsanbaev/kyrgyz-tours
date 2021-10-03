@@ -11099,6 +11099,9 @@ a:hover .card-title {
   background-color: #fff;
   transition: background-color 0.5s;
 }
+.navbar .container-fluid .navbar-toggler:hover .togg-icon, .navbar .container-sm .navbar-toggler:hover .togg-icon, .navbar .container-md .navbar-toggler:hover .togg-icon, .navbar .container-lg .navbar-toggler:hover .togg-icon, .navbar .container-xl .navbar-toggler:hover .togg-icon, .navbar .container-xxl .navbar-toggler:hover .togg-icon {
+  background-color: #E58615;
+}
 .navbar .container-fluid .navbar-brand img, .navbar .container-sm .navbar-brand img, .navbar .container-md .navbar-brand img, .navbar .container-lg .navbar-brand img, .navbar .container-xl .navbar-brand img, .navbar .container-xxl .navbar-brand img {
   width: 167.5px;
   height: 50px;
@@ -11108,6 +11111,9 @@ a:hover .card-title {
   cursor: pointer;
   font-size: 18px;
   transition: color 0.5s;
+}
+.navbar .container-fluid a.nav-link:hover, .navbar .container-sm a.nav-link:hover, .navbar .container-md a.nav-link:hover, .navbar .container-lg a.nav-link:hover, .navbar .container-xl a.nav-link:hover, .navbar .container-xxl a.nav-link:hover {
+  color: #E58615;
 }
 
 .swiper {

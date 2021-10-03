@@ -49,17 +49,6 @@
   padding-bottom: 100px;
 }
 
-.cards {
-  .underline {
-    background-color: $orangen;
-    height: 7px;
-    width: 0px;
-    transition: width 0.5s 0.5s;
-  }
-}
-.cards:hover .underline {
-  width: 300px;
-}
 
 .slogan {
   background-image: url(../../assets/mountains-bg.jpg);
@@ -82,44 +71,28 @@
   background-color: rgb(233, 233, 233);
   color: rgb(66, 66, 66);
   padding-top: 150px;
-  .underline {
-    background-color: $orangen;
-    height: 7px;
-    width: 0px;
-    transition: width 0.5s 0.3s;
-  }
+
   p {
     max-width: 1000px;
   }
 }
-.team:hover .underline {
+
+
+.underline {
+  background-color: $orangen;
+  height: 7px;
+  width: 0px;
+  transition: width 0.5s 0.3s;
+}
+.underline-parent:hover .underline{
   width: 300px;
 }
 
 .about-d {
   max-width: 1000px;
   margin: 100px auto;
-  .underline {
-    background-color: $orangen;
-    height: 7px;
-    width: 0px;
-    transition: width 0.5s 0.5s;
-  }
 }
-.about-d:hover .underline {
-  width: 300px;
-}
-.main{
-  .underline{
-    background-color: $orangen;
-    height: 7px;
-    width: 0px;
-    transition: width 0.5s 0.5s;
-  }
-}
-.main:hover .underline{
-  width: 300px;
-}
+
 
 .c-title{
   max-width: 600px;

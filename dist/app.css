@@ -10931,17 +10931,6 @@ textarea.form-control-lg {
   padding-bottom: 100px;
 }
 
-.cards .underline {
-  background-color: #E58615;
-  height: 7px;
-  width: 0px;
-  transition: width 0.5s 0.5s;
-}
-
-.cards:hover .underline {
-  width: 300px;
-}
-
 .slogan {
   background-image: url(/images/mountains-bg.jpg?31be7cce1569fbcedd22cca52afb3534);
   background-size: cover;
@@ -10965,44 +10954,24 @@ textarea.form-control-lg {
   color: #424242;
   padding-top: 150px;
 }
-.team .underline {
+.team p {
+  max-width: 1000px;
+}
+
+.underline {
   background-color: #E58615;
   height: 7px;
   width: 0px;
   transition: width 0.5s 0.3s;
 }
-.team p {
-  max-width: 1000px;
-}
 
-.team:hover .underline {
+.underline-parent:hover .underline {
   width: 300px;
 }
 
 .about-d {
   max-width: 1000px;
   margin: 100px auto;
-}
-.about-d .underline {
-  background-color: #E58615;
-  height: 7px;
-  width: 0px;
-  transition: width 0.5s 0.5s;
-}
-
-.about-d:hover .underline {
-  width: 300px;
-}
-
-.main .underline {
-  background-color: #E58615;
-  height: 7px;
-  width: 0px;
-  transition: width 0.5s 0.5s;
-}
-
-.main:hover .underline {
-  width: 300px;
 }
 
 .c-title {

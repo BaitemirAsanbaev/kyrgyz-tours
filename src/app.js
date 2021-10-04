@@ -4,8 +4,15 @@ import 'bootstrap';
   // import Swiper bundle with all modules installed
   import Swiper from 'swiper/bundle';
 
+  import { Navigation } from 'swiper';
+  
+  Swiper.use(Navigation);
   // import styles bundle
   import 'swiper/css/bundle';const swiper = new Swiper('.swiper', {
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
     // centeredSlides: true,
     // Default parameters
     slidesPerView: 1,

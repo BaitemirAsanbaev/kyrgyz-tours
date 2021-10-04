@@ -11094,6 +11094,8 @@ a:hover .card-title {
   text-align: center;
   font-size: 18px;
   background: #fff;
+  cursor: -webkit-grab;
+  cursor: grab;
   /* Center slide text vertically */
   display: flex;
   justify-content: center;
@@ -11215,4 +11217,18 @@ a:hover .card-title {
 }
 .main-tour .main-info .main-info-price .price {
   color: #E58615;
+}
+
+.details h3, .details .h3, .details #plans-tab, .details #included-tab {
+  color: #E58615;
+}
+.details .day-plans {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.details .day-plans .day-item {
+  max-width: 500px;
+}
+.details .day-plans .d-9 {
+  width: 500px;
 }

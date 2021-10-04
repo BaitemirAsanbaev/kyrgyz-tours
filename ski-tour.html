@@ -41,7 +41,7 @@
     </div>
   </div>
 
-  <main class="main-tour">
+  <main class="main-tour bg-light">
     <div class="underline-parent d-flex flex-column align-items-center py-5">
       <h1>Skiing shaded mountains</h1>
       <div class="underline"></div>
@@ -90,8 +90,9 @@
       <div
         class="tour-links d-flex flex-column flex-sm-row flex-wrap justify-content-evenly align-items-center py-4 px-5 bg-dark">
         <a class="text-decoration-none my-2 my-sm-0 mx-3 fs-5" href="#main-info">Main info</a>
-        <a class="text-decoration-none my-2 my-sm-0 mx-3 fs-5" href="#">Details</a>
-        <a class="text-decoration-none my-2 my-sm-0 mx-3 fs-5" href="#">Practical info</a>
+        <a class="text-decoration-none my-2 my-sm-0 mx-3 fs-5" href="#gallery">Gallery</a>
+        <a class="text-decoration-none my-2 my-sm-0 mx-3 fs-5" href="#details">Details</a>
+        <a class="text-decoration-none my-2 my-sm-0 mx-3 fs-5" href="#practical-info">Practical info</a>
       </div>
       <div class="l-color-or"></div>
     </div>
@@ -113,31 +114,262 @@
           <div class="d-flex flex-column align-items-start">
             <span class="info-point">9 days</span>
           </div>
-        </div> 
+        </div>
         <div class="info-item d-flex flex-column align-items-center p-3">
           <img src="./assets/elevation.svg" alt="">
           <span class="fw-bold fs-4">Elevation</span>
           <div class="d-flex flex-column align-items-start">
             <span class="info-point">2700-3800</span>
           </div>
-        </div> 
+        </div>
         <div class="info-item d-flex flex-column align-items-center p-3">
           <img src="./assets/season.svg" alt="">
           <span class="fw-bold fs-4">Season</span>
           <div class="d-flex flex-column align-items-start">
             <span class="info-point">December-March</span>
           </div>
-        </div> 
-        
+        </div>
+
       </div>
       <div class="main-info-price d-flex flex-column align-items-center bg-dark p-4 mt-5">
         <h2 class="fs-3 py-3 px-5">Starting from</h2>
         <span class="price fs-2">1050 $</span>
-        <span class="text-light fs-5 p-3">You don’t have to worry about complicated accesses. All the guests and their luggages will be transferred
+        <span class="text-light fs-5 p-3">You don’t have to worry about complicated accesses. All the guests and their
+          luggages will be transferred
           right to the front door of the lodges by vehicles. On the morning of the lodge to lodge touring day you just
           pack your stuff and it will wait for you at the next destination.</span>
       </div>
     </div>
+
+
+    <div class="swiper mySwiper py-5" id="gallery">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./assets/card.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/card.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/card.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/card.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/card.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/card.jpg" alt="">
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <section class="details mx-auto py-5 bg-light" id="details">
+      <ul class="nav nav-tabs container d-flex justify-content-around id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active fs-2 fw-bold" id="plans-tab" data-bs-toggle="tab" data-bs-target="#plans"
+            type="button" role="tab" aria-controls="plans" aria-selected="true">Day plans</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link fs-2 fw-bold" id="included-tab" data-bs-toggle="tab" data-bs-target="#included"
+            type="button" role="tab" aria-controls="included" aria-selected="false">What's included</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="plans" role="tabpanel" aria-labelledby="plans-tab">
+          <div class="day-plans p-3 p-sm-4 p-md-5 d-flex flex-wrap justify-content-start justify-content-md-evenly">
+            <div class="day-item my-3">
+              <h3>Meeting day</h3>
+              <span class="fs-5 p-1">International airport Manas – Bishkek – South shore of IssykKul lake – Karakol. Our private vehicle which picks you up in the airport will steal you from the capital city, Bishkek due east. Through seven hours driving with some food and eagle performance stops on the way you will arrive to Karakol town where you settle and get breath after your long jorney.</span>
+            </div>
+            <div class="day-item my-3">
+              <h3>Day 1</h3>
+              <span class="fs-5 p-1">Morning of the first day we start with coffee and approaching the Yurt base at Turgen valley. As soon as we organized in the area we are out for a avalanche safety practice and reading the snowpack which ends up with almost full day skiing.</span>
+            </div>
+            <div class="day-item my-3">
+              <h3>Day 2-3</h3>
+              <span class="fs-5 p-1">Day two is the Day! Now you are more or less ready to get deeper and make your laziness hate you!</span>
+            </div>
+            <div class="day-item my-3">
+              <h3>Day 4</h3>
+              <span class="fs-5 p-1">Following three days of skiing totally wild lines, our this midweek day will provided with long “lodge to lodge” mostly touring day. We will change the trailhead office trough crossing the 3465m height pass. The luggages are will be dropped in the village by our team while we having another full day of skiing.</span>
+            </div>
+            <div class="day-item my-3">
+              <h3>Day 5-6-7</h3>
+              <span class="fs-5 p-1">Here we have three ski touring days but much more terrain to explore.</span>
+            </div>
+            <div class="day-item my-3">
+              <h3>Last day</h3>
+              <span class="fs-5 p-1">This day will start quite early as we have to drive to the Bishkek which is pretty long but not means boring as we still have a plan to stop on the way  and dip in the open air hot springs in the north shore of the lake. According the time left by arriving in the Bishkek we might run into the another stunning cultural evening at colorful Osh Bazaar.</span>
+            </div>
+            <div class="day-item my-3 d-9">
+              <h3>Day 9</h3>
+              <span class="fs-5 p-1">Early transfer to airport.</span>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane container fade p-1 p-sm-5 bg-white" id="included" role="tabpanel" aria-labelledby="included-tab">
+          <div class="row">
+            <div class="col-md-6">
+              <h3 class="my-4">Incuded</h3>
+              <ul class="list-unstyled">
+                <li class="mb-3">
+                  <div class="container d-md-flex align-items-center">
+                    <span class="icon me-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#E58615"
+                        class="bi bi-check-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path
+                          d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
+                      </svg>
+                    </span>
+                    <p class="fs-5 mb-0">Kyrgyz Tours Guides (lead guide + tail guide)</p>
+                  </div>
+                </li>
+                <li class="mb-3">
+                  <div class="container d-md-flex align-items-center">
+                    <span class="icon me-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#E58615"
+                        class="bi bi-check-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path
+                          d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
+                      </svg>
+                    </span>
+                    <p class="fs-5 mb-0">Airport transfers</p>
+                  </div>
+                </li>
+                <li class="mb-3">
+                  <div class="container d-md-flex align-items-center">
+                    <span class="icon me-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#E58615"
+                        class="bi bi-check-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path
+                          d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
+                      </svg>
+                    </span>
+                    <p class="fs-5 mb-0">Roundtrip transfer between Bishkek-Karakol</p>
+                  </div>
+                </li>
+                <li class="mb-3">
+                  <div class="container d-md-flex align-items-center">
+                    <span class="icon me-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#E58615"
+                        class="bi bi-check-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path
+                          d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
+                      </svg>
+                    </span>
+                    <p class="fs-5 mb-0"> Hotel in Bishkek/lodging and meals in Karakol</p>
+                  </div>
+                </li>
+                <li class="mb-3">
+                  <div class="container d-md-flex align-items-center">
+                    <span class="icon me-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#E58615"
+                        class="bi bi-check-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path
+                          d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
+                      </svg>
+                    </span>
+                    <p class="fs-5 mb-0">4x4 transport between Karakol –Trail head lodges</p>
+                  </div>
+                </li>
+                <li class="mb-3">
+                  <div class="container d-md-flex align-items-center">
+                    <span class="icon me-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#E58615"
+                        class="bi bi-check-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path
+                          d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
+                      </svg>
+                    </span>
+                    <p class="fs-5 mb-0">Yurt base camp + lodge at the village with all meals and drinks</p>
+                  </div>
+                </li>
+                <li class="mb-3">
+                  <div class="container d-md-flex align-items-center">
+                    <span class="icon me-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#E58615"
+                        class="bi bi-check-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path
+                          d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
+                      </svg>
+                    </span>
+                    <p class="fs-5 mb-0">Chief and lodge man</p>
+                  </div>
+                </li>
+                <li class="mb-3">
+                  <div class="container d-md-flex align-items-center">
+                    <span class="icon me-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#E58615"
+                        class="bi bi-check-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path
+                          d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
+                      </svg>
+                    </span>
+                    <p class="fs-5 mb-0">One satellite phone for the crew</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <h3  class="my-4">Excluded</h3>
+              <ul class="list-unstyled">
+                <li class="mb-3">
+                  <div class="container d-md-flex align-items-center">
+                    <span class="icon me-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#E58615"
+                        class="bi bi-x-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path
+                          d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                      </svg>
+                    </span>
+                    <p class="fs-5 mb-0">Visa support (Kyrgyzstan offers a visa free policy for most countries</p>
+                  </div>
+                </li>
+                <li class="mb-3">
+                  <div class="container d-md-flex align-items-center">
+                    <span class="icon me-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#E58615"
+                        class="bi bi-x-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path
+                          d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                      </svg>
+                    </span>
+                    <p class="fs-5 mb-0">International flights to and from Bishkek</p>
+                  </div>
+                </li>
+                <li class="mb-3">
+                  <div class="container d-md-flex align-items-center">
+                    <span class="icon me-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#E58615"
+                        class="bi bi-x-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path
+                          d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                      </svg>
+                    </span>
+                    <p class="fs-5 mb-0">Medical/evacuation insurance</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
   </main>

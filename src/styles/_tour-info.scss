@@ -38,3 +38,19 @@
   }
 
 }
+.details{
+  h3, #plans-tab, #included-tab{
+    color: $orangen;
+  }
+  .day-plans{
+    max-width: 1200px;
+    margin: 0 auto;
+    .day-item{
+      max-width: 500px;
+    }
+    .d-9{
+      width: 500px
+    }
+  }
+
+}

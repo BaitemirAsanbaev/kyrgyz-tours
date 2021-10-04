@@ -1,0 +1,40 @@
+@import "./vars";
+
+.main-tour{
+  summary{
+    color: $orangen;
+  }
+  .links-cont{
+    .tour-links{
+      max-width: 800px;
+      padding-left: 100px;
+      padding-right: 100px;
+      a{
+        color: $orangen;
+      }
+    }
+    .l-color-or{
+      background-color: $orangen;
+      height: 50px;
+      flex: 0px 1 1;
+    }
+  }
+  .main-info{
+    .main-info-info{
+      .info-item{
+        flex: 50% 1 1;
+      }
+    }
+    .main-info-price{
+      max-width: 400px;
+      h2{
+        background-color: $orangen;
+        color: #fff;
+      }
+      .price{
+        color: $orangen;
+      }
+    }
+  }
+
+}

@@ -11186,3 +11186,33 @@ a:hover .card-title {
 .tribe .tribe-link:hover .tr-l {
   color: #fff;
 }
+
+.main-tour summary {
+  color: #E58615;
+}
+.main-tour .links-cont .tour-links {
+  max-width: 800px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.main-tour .links-cont .tour-links a {
+  color: #E58615;
+}
+.main-tour .links-cont .l-color-or {
+  background-color: #E58615;
+  height: 50px;
+  flex: 0px 1 1;
+}
+.main-tour .main-info .main-info-info .info-item {
+  flex: 50% 1 1;
+}
+.main-tour .main-info .main-info-price {
+  max-width: 400px;
+}
+.main-tour .main-info .main-info-price h2, .main-tour .main-info .main-info-price .h2 {
+  background-color: #E58615;
+  color: #fff;
+}
+.main-tour .main-info .main-info-price .price {
+  color: #E58615;
+}

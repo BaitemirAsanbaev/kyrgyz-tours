@@ -11232,3 +11232,7 @@ a:hover .card-title {
 .details .day-plans .d-9 {
   width: 500px;
 }
+
+.practical-info h3, .practical-info .h3 {
+  color: #E58615;
+}
